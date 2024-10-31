@@ -1,39 +1,59 @@
----
-permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
----
+> SJTU & UM \| Shanghai, Minhang <keyuanhu@umich.edu> \| (+86) 134-2288-9498
 
-{% include base_path %}
-{% include toc %}
+# Education
 
-## Privacy Policy
+> **Shanghai Jiao Tong University Shanghai**
+>
+> *Joint Institute, Electronic and Computer Engineering* Sept.2022 -- present
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+- GPA: 3.8/4.0 (top 5%)
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+- Course Highlights: Data structure, Circuit Design
 
-### Log Files
+- Awards/Honors:
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+  - 2022-2023 Undergraduate Excellent Scholarship
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+  - 2023 Students Development Scholarship
 
-All of this information is not linked to anything that is personally identifiable.
+# Relevant Experience
 
-### Cookies and Web Beacons
+> **Optimized Design of Power Supply Network for Multi-Core Heterogeneous Processor Shanghai**
+>
+> *Student Innovation and Entrepreneurship Program, Project Team Member* Mar.2023 – Mar.2024 To study the power supply fluctuation of computer motherboard power supply network during multi-core CPU operation and optimize CPU power supply through distributed network design.
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+- Analyze and organize information and literature on related research projects, processor powered network background knowledge learning.
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+- The processor power supply network is simulated and verified using PSPICE.
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+- Analyze and evaluate the safety and reliability of the existing power supply network and design improvements and optimizations.
 
-#### Google Analytics
+- Write programs for mainboard energy regulation using programming languages such as python and C/C++.
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+> **A 3D real-time tracking microscopy based on machine learning algorithm Shanghai**
+>
+> *Participation in Research Program, Project Team Member* May.2024 – present
+>
+> The project aims to design a real-time 3D tracking microscopy system for long-term observation of microorganisms, such as bacteria and algae. This project proposes to use machine learning algorithms to achieve individual identification and long-term tracking of microorganisms within clusters.
+
+# Leadership Experience
+
+> **UM-SJTU Joint Institute Student Science, Technology and Innovation Association Shanghai**
+>
+> *Advisory Board Member* Oct.2022 – Feb.2024
+
+- Participated in the preparation of the 2023 Shanghai Jiao Tong University "Li Ming Cup" Freshman Mechanical Competition, and was responsible for the game planning of the Mechanical Competition.
+
+- Offered Python Workshop courses for freshmen students.
+
+> **SJTU MATH2850J Honors Mathematics III Shanghai**
+>
+> *Teaching Assistance Summer* 2024
+
+# Additional
+
+- **English:** CET-6, TOEFL - 106
+
+- **Technical Skills:** Knowledge of C, C++, Java, python programming languages, use of Git, GitHub and other supporting tools.
+
+- **Hobbies/Interests:** Love playing Minecraft, currently a Minecraft club member in SJTU.
