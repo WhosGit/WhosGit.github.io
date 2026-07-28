@@ -62,8 +62,8 @@ public/files/keyuan-hu-cv-zh.pdf
 链接保持不变：
 
 ```text
-https://whosgit.github.io/cv/en/
-https://whosgit.github.io/cv/zh/
+https://whosgit.github.io/files/keyuan-hu-cv-en.pdf
+https://whosgit.github.io/files/keyuan-hu-cv-zh.pdf
 ```
 
 建议每次更新简历后检查：

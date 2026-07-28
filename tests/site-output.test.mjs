@@ -19,18 +19,17 @@ test("exports the academic homepage with current contact information", async () 
   assert.match(html, /images\/keyuan-hu\.jpg/);
 });
 
-test("exports independent English and Chinese PDF CV pages", async () => {
-  const [english, chinese] = await Promise.all([
-    readOutput("cv/en/index.html"),
-    readOutput("cv/zh/index.html"),
-  ]);
+test("links directly to the English and Chinese PDF CV files", async () => {
+  const html = await readOutput("cv/index.html");
 
-  assert.match(english, /files\/keyuan-hu-cv-en\.pdf/);
-  assert.match(chinese, /files\/keyuan-hu-cv-zh\.pdf/);
+  assert.match(html, /href="\/files\/keyuan-hu-cv-en\.pdf"/);
+  assert.match(html, /href="\/files\/keyuan-hu-cv-zh\.pdf"/);
 
   await Promise.all([
     access(new URL("files/keyuan-hu-cv-en.pdf", outputRoot)),
     access(new URL("files/keyuan-hu-cv-zh.pdf", outputRoot)),
+    assert.rejects(access(new URL("cv/en/index.html", outputRoot))),
+    assert.rejects(access(new URL("cv/zh/index.html", outputRoot))),
   ]);
 });
 

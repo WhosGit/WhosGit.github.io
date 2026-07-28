@@ -35,8 +35,8 @@ export default function Home() {
             <div className="profile-links" aria-label="Profile links">
               <Link href="/research">Research</Link>
               <Link href="/projects">Projects</Link>
-              <Link href="/cv/en">English CV</Link>
-              <Link href="/cv/zh">中文简历</Link>
+              <a href="/files/keyuan-hu-cv-en.pdf">English CV</a>
+              <a href="/files/keyuan-hu-cv-zh.pdf">中文简历</a>
               <a href={profile.github}>GitHub</a>
               <a href={profile.linkedin}>LinkedIn</a>
               <Link href="/blog">Blog</Link>
