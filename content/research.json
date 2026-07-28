@@ -1,0 +1,43 @@
+{
+  "introduction": "My current interests lie broadly at the intersection of reinforcement learning and computer systems. I am also interested in human-centered methods for building and evaluating intelligent systems.",
+  "areas": [
+    {
+      "title": "Reinforcement learning",
+      "description": "Learning and decision-making methods for agents operating in complex and uncertain environments."
+    },
+    {
+      "title": "Computer systems",
+      "description": "Systems foundations that make learning-enabled software efficient, dependable, and useful in practice."
+    },
+    {
+      "title": "Human-AI interaction",
+      "description": "Human-centered approaches to building and studying AI systems, informed by my earlier HCI research."
+    }
+  ],
+  "experience": [
+    {
+      "period": "Present",
+      "title": "Illinois Networked Systems and Artificial Intelligence Lab",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "advisor": "Professor Francis Y. Yan",
+      "url": "https://github.com/illinois-nsai",
+      "description": "I work on research questions related to reinforcement learning and computer systems. Detailed project information will be added as the work develops."
+    },
+    {
+      "period": "May 2025 - Sep 2025",
+      "title": "Human-AI Lab",
+      "affiliation": "University of Michigan",
+      "advisor": "Professor Anhong Guo",
+      "url": "https://guoanhong.com/",
+      "description": "I developed a multimodal gaze-tracking and machine-learning calibration pipeline for simulated operating-room environments, helped collect and analyze data from 50 participants, and built research visualization tools."
+    },
+    {
+      "period": "May 2024 - Oct 2024",
+      "title": "Real-time 3D tracking microscopy",
+      "affiliation": "Shanghai Jiao Tong University",
+      "advisor": "",
+      "url": "",
+      "description": "I implemented an ImageJ/Fiji microorganism segmentation pipeline using StarDist and contributed to a semi-real-time 3D tracking system for long-term microscope observation."
+    }
+  ]
+}

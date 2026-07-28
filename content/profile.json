@@ -1,0 +1,26 @@
+{
+  "name": "Keyuan Hu",
+  "email": "keyuanh3@illinois.edu",
+  "headline": "First-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign",
+  "location": "Urbana-Champaign, Illinois",
+  "github": "https://github.com/WhosGit",
+  "linkedin": "https://www.linkedin.com/in/keyuanhu",
+  "photo": "/images/keyuan-hu.jpg",
+  "bio": [
+    "I am a first-year M.S. student in Computer Science at the [University of Illinois Urbana-Champaign](https://cs.illinois.edu/). I currently work with [Professor Francis Y. Yan](https://fyy.cs.illinois.edu/) in the [Illinois Networked Systems and Artificial Intelligence Lab](https://github.com/illinois-nsai). My primary interests are reinforcement learning and computer systems.",
+    "Previously, I completed a dual-degree undergraduate program in Electronic and Computer Engineering at Shanghai Jiao Tong University and Mathematics (Honors) at the University of Michigan. At Michigan, I worked with [Professor Anhong Guo](https://guoanhong.com/) in the Human-AI Lab on human-computer interaction.",
+    "I enjoy learning about unfamiliar topics and exploring fields beyond my current research. This website is an organized record of my research, projects, and technical notes."
+  ],
+  "resumes": [
+    {
+      "label": "English CV",
+      "href": "/files/keyuan-hu-cv-en.pdf",
+      "language": "English"
+    },
+    {
+      "label": "中文简历",
+      "href": "/files/keyuan-hu-cv-zh.pdf",
+      "language": "中文"
+    }
+  ]
+}

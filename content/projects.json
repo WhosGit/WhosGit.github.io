@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026",
+    "title": "SmartMentor",
+    "description": "An experimental student-mentor matching platform using semantic retrieval and retrieval-augmented generation.",
+    "methods": "FastAPI, React, MySQL, Redis, Gemini, ChromaDB",
+    "link": "https://github.com/WhosGit/SmartMentor"
+  },
+  {
+    "date": "2025",
+    "title": "SCH Research Website",
+    "description": "A website for organizing and presenting information about multimodal surgical-training research at the University of Michigan.",
+    "methods": "React, Material UI, information design",
+    "link": "https://github.com/WhosGit/SCHWEB"
+  },
+  {
+    "date": "2025",
+    "title": "Distributed MapReduce",
+    "description": "A simplified distributed MapReduce framework with manager-worker scheduling, TCP task delivery, UDP heartbeats, failure detection, and task reassignment.",
+    "methods": "Python, TCP/UDP, distributed systems",
+    "link": ""
+  },
+  {
+    "date": "2026",
+    "title": "Paxos",
+    "description": "A small implementation and study project focused on the Paxos consensus algorithm and fault-tolerant key-value services.",
+    "methods": "Go, distributed systems",
+    "link": "https://github.com/WhosGit/Paxos"
+  }
+]
