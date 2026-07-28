@@ -18,6 +18,7 @@
 /.next/
 /.vinext/
 /out/
+/public/blog-assets/
 
 # misc
 .DS_Store

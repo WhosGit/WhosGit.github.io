@@ -49,26 +49,13 @@ export default async function PostPage({
             <p className="article-lede">{post.lede}</p>
           </header>
 
-          <div className="article-content">
-            {post.sections.map((section) => (
-              <section key={section.heading}>
-                <h2>{section.heading}</h2>
-                {section.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-                {section.bullets && (
-                  <ul>
-                    {section.bullets.map((bullet) => (
-                      <li key={bullet}>{bullet}</li>
-                    ))}
-                  </ul>
-                )}
-              </section>
-            ))}
-            <div className="article-end">
-              <p>Last reviewed {post.displayDate}</p>
-              <Link href="/blog">Return to notes index</Link>
-            </div>
+          <div
+            className="article-content"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+          <div className="article-end">
+            <p>Last reviewed {post.displayDate}</p>
+            <Link href="/blog">Return to notes index</Link>
           </div>
         </article>
       </main>

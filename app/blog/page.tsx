@@ -53,7 +53,7 @@ export default function BlogPage() {
       <footer className="blog-footer">
         <div className="blog-shell">
           <p>Keyuan Hu&apos;s Notes</p>
-          <p>Last updated July 2026</p>
+          <p>Last updated {posts[0]?.displayDate ?? "recently"}</p>
         </div>
       </footer>
     </>

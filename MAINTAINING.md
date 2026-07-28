@@ -12,7 +12,8 @@
 | 研究方向与研究经历 | `content/research.json` |
 | 项目 | `content/projects.json` |
 | 论文与手稿 | `content/publications.json` |
-| 博客文章 | `content/blog.ts` |
+| 博客文章 | `content/blog/posts/<slug>/index.md` |
+| 博客发布说明 | `BLOGGING.md` |
 
 照片和 PDF 文件位于：
 
@@ -138,31 +139,29 @@ News 应该简短、可核实，避免把计划写成已经完成的成果。
 
 ## 8. 发布博客
 
-博客内容集中在 `content/blog.ts`。复制 `posts` 数组中的一个完整文章对象，
-粘贴到数组最上方，然后修改：
+最简单的方式是准备一个 Markdown 文件，然后运行：
 
-- `slug`：网址标识，只使用小写英文、数字和连字符；
-- `title`：文章标题；
-- `summary`：博客列表中的摘要；
-- `lede`：文章开头；
-- `category`：`Research`、`Engineering` 或 `Reflection`；
-- `tags`：主题标签；
-- `date`：`YYYY-MM-DD`；
-- `displayDate`：显示日期；
-- `readTime`：预计阅读时间；
-- `sections`：正文各节。
-
-`slug` 不能与已有文章重复。例如：
-
-```text
-reading-notes-on-offline-rl
+```bash
+npm run blog:import -- "/你的路径/reading-notes-on-offline-rl.md"
 ```
 
-发布后的地址为：
+脚本会：
+
+- 读取或推断文章标题、日期、摘要和网址名称；
+- 自动复制 Markdown 引用的本地图片、PDF 和其他附件；
+- 生成博客页面所需的数据；
+- 输出文章最终网址。
+
+文章的 Markdown 源文件保存在：
 
 ```text
-https://whosgit.github.io/blog/reading-notes-on-offline-rl/
+content/blog/posts/<slug>/index.md
 ```
+
+文章的图片和附件保存在同一目录的 `assets/` 下。不要手动编辑
+`content/blog.generated.json` 或 `public/blog-assets/`，它们会在构建时自动生成。
+
+完整说明、Markdown 模板、图片与附件语法见 `BLOGGING.md`。
 
 ## 9. 在本地预览
 

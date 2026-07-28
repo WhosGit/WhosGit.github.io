@@ -726,7 +726,7 @@ a:hover {
   margin: 54px auto 0;
 }
 
-.article-content section + section {
+.article-content > h2:not(:first-child) {
   margin-top: 3.4rem;
 }
 
@@ -735,6 +735,13 @@ a:hover {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.55rem;
   font-weight: 600;
+}
+
+.article-content h3 {
+  margin: 2.2rem 0 0.8rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.22rem;
+  line-height: 1.4;
 }
 
 .article-content p,
@@ -748,15 +755,80 @@ a:hover {
   margin: 0 0 1.2rem;
 }
 
-.article-content ul {
+.article-content ul,
+.article-content ol {
   margin: 1.4rem 0;
   padding: 1rem 1rem 1rem 2.4rem;
   border-left: 2px solid var(--border-dark);
   background: var(--soft-background);
 }
 
+.article-content blockquote {
+  margin: 2rem 0;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--border-dark);
+  color: var(--muted);
+}
+
+.article-content blockquote p {
+  font-style: italic;
+}
+
+.article-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto 0.7rem;
+  border: 1px solid var(--border);
+}
+
+.article-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1.7rem 0;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--border);
+  background: var(--soft-background);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.article-content :not(pre) > code {
+  padding: 0.1rem 0.3rem;
+  background: var(--soft-background);
+  font-size: 0.86em;
+}
+
+.article-content table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.article-content th,
+.article-content td {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.article-content th {
+  background: var(--soft-background);
+}
+
+.article-content hr {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
 .article-end {
+  width: min(660px, 100%);
   margin-top: 4.5rem;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 1rem;
   border-top: 1px solid var(--border);
   display: flex;

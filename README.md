@@ -8,6 +8,7 @@ The site contains:
 - research, publication, and project records;
 - independent English and Chinese PDF CV pages;
 - a separate personal blog;
+- a Markdown-first blog importer with colocated images and attachments;
 - automatic GitHub Pages deployment.
 
 Most updates only require editing files in [`content/`](./content). See
